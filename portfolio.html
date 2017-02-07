@@ -1,0 +1,31 @@
+---
+layout: default
+title: Portfolio
+---
+
+<section class="gallery">
+    <h2>Portfolio</h2>
+    <div class="box alt">
+        <div class="row uniform 50%">
+            
+            {% for portfolio in site.portfolio %}
+            
+            <div class="6u">
+               
+                <span class="image fit">
+            
+                    <div class="zoomimg"><img src=" {{ portfolio.thumbnail-path}}" alt=" {{ portfolio.title }}"/></div>
+                    
+                    <div class="portfolio-title"><!--<a href= "{{ portfolio.url | prepend: site.baseurl}}">--> <h3>{{ portfolio.title }}</h3>{{portfolio.description}}</a></div>
+                </span>
+
+                
+                
+            </div>
+           {% endfor %}
+            
+        </div>
+    </div>
+</section>
+
+ 
