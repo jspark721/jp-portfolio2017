@@ -5,7 +5,7 @@
 title: Julie Park
 description: Developer & Designer
 owner: Julie Park
-first_published: 2016
+first_published: 2017
 email: julieparkdev@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://juliepark.me" # the base hostname & protocol for your site
@@ -52,6 +52,7 @@ social:
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 collections: 
     portfolio:
         output: true
