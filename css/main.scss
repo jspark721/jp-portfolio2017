@@ -1989,9 +1989,16 @@ article {
         h1 {
             color: _palette(bg);
         }
+        h2, h3, h4, h5 {
+            color: _palette(accent2,bg) !important;
+        }
         img {
             width: 550px !important;
             height: auto;
         }
     }
+}
+
+.excerpt {
+    text-align: justify;
 }
