@@ -1747,6 +1747,7 @@ $baseurl: '{{ site.baseurl }}/images';
         padding: 4em 0 2em 0;
         background-color: _palette(accent2,bg);
         text-align: center;
+        font-size: 2em;
 //        border-bottom: 3em solid _palette(accent5,bg);
         h2 {
             font-size: 1.5em;
@@ -1948,7 +1949,7 @@ article,
 article {
     background-color: #ABC4CB;
     header {
-        margin-bottom: 7%;
+        margin-bottom: 3%;
         text-align: center;
     }
     a:hover {
@@ -2001,4 +2002,8 @@ article {
 
 .excerpt {
     text-align: justify;
+    font-size: .9em;
+    .button {
+        text-align: center;
+    }
 }
