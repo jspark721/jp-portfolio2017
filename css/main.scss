@@ -993,6 +993,9 @@ $baseurl: '{{ site.baseurl }}/images';
 			@include vendor('order', '2');
 			max-width: 48em;
 			width: 60%;
+            p {
+                font-size: 0.97em;
+            }
 		}
 
 		&:nth-child(2n) {
@@ -1262,6 +1265,7 @@ $baseurl: '{{ site.baseurl }}/images';
 
 		&.style3 {
 			@include wrapper(accent5);
+            padding-bottom: 8em !important;
 		}
 
 		&.style4 {
