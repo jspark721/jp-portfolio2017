@@ -8,7 +8,8 @@ owner: Julie Park
 first_published: 2017
 email: julieparkdev@gmail.com
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://juliepark.me" # the base hostname & protocol for your site
+url: https://juliepark.me # the base hostname & protocol for your site
+enforce_ssl: https://juliepark.me
 social:
   twitter: https://twitter.com/juliepark
   github: https://github.com/jspark721
@@ -53,7 +54,7 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
-collections: 
+collections:
     portfolio:
         output: true
         permalink: /portfolio/:path/
